@@ -5,12 +5,13 @@ CURRENT AND KNOWN BUGS
 
 EaglerCraft issues will not be documented, only issues with this specific way of running it. I should also mention that this should, by absolutely NO MEANS work.
 
-Only 2 so far, lmk if you find any at 2218854@edtools.psd401.net
+lmk if you find any at 2218854@edtools.psd401.net
 
 1. NO SAVES
    Yes, the game will save your skin and username, but for some reason not your worlds. Keep this in mind.
 2. MOUSE IN NON-FULLSCREEN
    If you play the game not in full screen, and your mouse is offscreen when you start, it might click things on your desktop. Try to minimize this by always clicking the green button to enter fullscreen.
+3. When exiting the game, you MUST exit it in Activity Manager, as just closing it will stop you from re-opening it until you exit it in Activity Manager.
 
 Step 1: Installing EaglerCraft.
 You will need an installation of EaglerCraft in HTML format. If you do not have this, get an external device and upload it to your school email's Google Drive. For this, I will be using u37, though any version should work fine, but is not guaranteed to. You also may have to download it through a folder, however this wasn't necessary for me and probably won't be for you either.
