@@ -33,6 +33,7 @@ Also, put your version of eaglercraft.html into the folder "Resources. By the ti
 
 <img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/0703af7f-fb62-4e1a-a91e-b40465f245bf" />
 
+EDIT, VERY IMPORTANT! RENAME YOUR EAGLERCRAFT FILE TO SIMPLY Eaglercraft.html
 
 You can also rename PSD Portal.app to EaglerCraft.app or whatever you want, though this isn't nescecarry.
 
@@ -57,7 +58,13 @@ First, enter the command
 ``` bash
 touch main.swift
 ```
-Copy the following code into main.swift using VSC (sorry for wall of text, never made a github repo before that isnt for coding)
+It should look like this
+
+<img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/e5e8e753-f0f2-4c7b-b2de-c391fd82a86e" />
+
+Open the file in Finder using VSC (Or any text editor)
+
+<img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/cf60957d-077f-4262-a16c-892dcaee68fd" />
 
 ``` swift
 import Cocoa
@@ -494,4 +501,67 @@ app.setActivationPolicy(.regular)
 app.activate(ignoringOtherApps: true)
 app.run()
 ```
-After you have this, then paste the command
+REMEMBER TO DO command+s TO SAVE! IF YOU DO NOT SAVE, NOTHING ELSE WILL WORK
+After you have this, then paste the commands in terminal
+
+``` bash
+clear
+```
+
+``` bash
+swiftc main.swift \
+    -sdk /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk \
+    -o Eaglercraft \
+    -framework Cocoa \
+    -framework WebKit
+```
+
+``` bash
+cp Eaglercraft Contents/MacOS/Eaglercraft
+```
+
+``` bash
+chmod +x Contents/MacOS/Eaglercraft
+```
+
+``` bash
+nano Contents/Info.plist
+```
+Then paste into that 
+``` XML
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>Eaglercraft</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>com.eaglercraft.native</string>
+
+    <key>CFBundleName</key>
+    <string>Eaglercraft</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>Eaglercraft</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <key>LSMinimumSystemVersion</key>
+    <string>10.15</string>
+</dict>
+</plist>
+```
+Then enter control+0, hit return(enter), then control+x
+
+Now, it should look something like this.
+
