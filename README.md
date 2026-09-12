@@ -5,7 +5,7 @@ CURRENT AND KNOWN BUGS
 
 EaglerCraft issues will not be documented, only issues with this specific way of running it. I should also mention that this should, by absolutely NO MEANS work.
 
-Only 2 so far, lmk if you find any at 2218854@edtools.psd401.net or 253.370.1126
+Only 2 so far, lmk if you find any at 2218854@edtools.psd401.net
 
 1. NO SAVES
    Yes, the game will save your skin and username, but for some reason not your worlds. Keep this in mind.
