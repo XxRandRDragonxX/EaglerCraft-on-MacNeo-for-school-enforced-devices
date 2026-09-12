@@ -11,10 +11,6 @@ Only 2 so far, lmk if you find any at 2218854@edtools.psd401.net
    Yes, the game will save your skin and username, but for some reason not your worlds. Keep this in mind.
 2. MOUSE IN NON-FULLSCREEN
    If you play the game not in full screen, and your mouse is offscreen when you start, it might click things on your desktop. Try to minimize this by always clicking the green button to enter fullscreen.
-   
-
-FIRST OFF!
-This is made with AI. If you do not support AI, you are welcome to not use it. You also require terminal.
 
 Step 1: Installing EaglerCraft.
 You will need an installation of EaglerCraft in HTML format. If you do not have this, get an external device and upload it to your school email's Google Drive. For this, I will be using u37, though any version should work fine, but is not guaranteed to. You also may have to download it through a folder, however this wasn't necessary for me and probably won't be for you either.
