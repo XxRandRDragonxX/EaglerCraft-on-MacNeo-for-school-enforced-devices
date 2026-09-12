@@ -41,6 +41,7 @@ Also, put your version of eaglercraft.html into the folder "Resources. By the ti
 EDIT, VERY IMPORTANT! RENAME YOUR EAGLERCRAFT FILE TO SIMPLY Eaglercraft.html
 
 Step 3: Entering in Terminal
+
 NOTE! I am not that experienced in Unix, and therefore this might get sloppy. Some commands here (the worse ones) are from me and some (such as compiling) are from ChatGpt. Use with caution.
 
 When you open terminal, type
@@ -59,6 +60,7 @@ cd PSD\ Portal.app
 Step 4: Creating main.swift, info.plist and compiling.
 
 Once here, you have to do the following. 
+
 First, enter the command 
 ``` bash
 touch main.swift
@@ -77,6 +79,7 @@ Copy and paste [link text](./main.swift) into main.swift.
 <img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/c46976ee-fac0-442a-868c-cbeba5aa7c93" />
 
 REMEMBER TO DO command+s TO SAVE! IF YOU DO NOT SAVE, NOTHING ELSE WILL WORK
+
 After you have this, then paste the commands in terminal
 
 ``` bash
