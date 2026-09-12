@@ -2,10 +2,16 @@
 Self explanatory name. WILL NOT WORK IF YOU HAVE TERMINAL BLOCKED. You need terminal to do this. For QoL, use Visual Code Studio (can be downloaded with Self Service) to have a better experience.
 
 CURRENT AND KNOWN BUGS
-Only one so far, lmk if you find any at 2218854@edtools.psd401.net or 253.370.1126
+
+EaglerCraft issues will not be documented, only issues with this specific way of running it. I should also mention that this should, by absolutely NO MEANS work.
+
+Only 2 so far, lmk if you find any at 2218854@edtools.psd401.net or 253.370.1126
 
 1. NO SAVES
    Yes, the game will save your skin and username, but for some reason not your worlds. Keep this in mind.
+2. MOUSE IN NON-FULLSCREEN
+   If you play the game not in full screen, and your mouse is offscreen when you start, it might click things on your desktop. Try to minimize this by always clicking the green button to enter fullscreen.
+   
 
 FIRST OFF!
 This is made with AI. If you do not support AI, you are welcome to not use it. You also require terminal.
@@ -35,8 +41,6 @@ Also, put your version of eaglercraft.html into the folder "Resources. By the ti
 
 EDIT, VERY IMPORTANT! RENAME YOUR EAGLERCRAFT FILE TO SIMPLY Eaglercraft.html
 
-You can also rename PSD Portal.app to EaglerCraft.app or whatever you want, though this isn't nescecarry.
-
 Step 3: Entering in Terminal
 NOTE! I am not that experienced in Unix, and therefore this might get sloppy. Some commands here (the worse ones) are from me and some (such as compiling) are from ChatGpt. Use with caution.
 
@@ -50,7 +54,7 @@ cd Chrome\ Apps.localized/
 ```
 
 ``` bash
-cd (insert your filename here).app
+cd PSD\ Portal.app
 ```
 
 Once here, you have to do the following. 
@@ -565,3 +569,6 @@ Then enter control+0, hit return(enter), then control+x
 
 Now, it should look something like this.
 
+<img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/df9ee27c-245d-4d8a-b59e-591b2060a678" />
+
+At this point, you can rename PSD Portal.app to EaglerCraft.app and maybe even pin it to your taskbar. Assuming both I (me writing this) and YOU have done everything correctly, simply launching EaglerCraft.app will run EaglerCraft.
