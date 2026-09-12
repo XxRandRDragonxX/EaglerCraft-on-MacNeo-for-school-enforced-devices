@@ -3,7 +3,7 @@ Self explanatory name. WILL NOT WORK IF YOU HAVE TERMINAL BLOCKED. You need term
 
 CURRENT AND KNOWN BUGS
 
-All code was made with. If you have a problem with that, don't use it.
+All code was made with AI. If you have a problem with that, don't use it.
 
 EaglerCraft issues will not be documented, only issues with this specific way of running it. I should also mention that this should, by absolutely NO MEANS work.
 
@@ -55,6 +55,8 @@ cd Chrome\ Apps.localized/
 ``` bash
 cd PSD\ Portal.app
 ```
+
+Step 4: Creating main.swift, info.plist and compiling.
 
 Once here, you have to do the following. 
 First, enter the command 
@@ -139,5 +141,7 @@ Then enter control+0, hit return(enter), then control+x
 Now, it should look something like this.
 
 <img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/df9ee27c-245d-4d8a-b59e-591b2060a678" />
+
+Step 5: Enjoy
 
 At this point, you can rename PSD Portal.app to EaglerCraft.app and maybe even pin it to your taskbar. Assuming both I (me writing this) and YOU have done everything correctly, simply launching EaglerCraft.app will run EaglerCraft.
