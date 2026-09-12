@@ -66,7 +66,10 @@ Open the file in Finder using VSC (Or any text editor)
 
 <img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/cf60957d-077f-4262-a16c-892dcaee68fd" />
 
-Copy and paste main.swift into the file main.swift
+
+Copy and paste [link text](./main.swift) into main.swift.
+
+<img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/c46976ee-fac0-442a-868c-cbeba5aa7c93" />
 
 REMEMBER TO DO command+s TO SAVE! IF YOU DO NOT SAVE, NOTHING ELSE WILL WORK
 After you have this, then paste the commands in terminal
