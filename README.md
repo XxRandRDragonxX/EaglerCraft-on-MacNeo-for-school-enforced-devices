@@ -3,6 +3,8 @@ Self explanatory name. WILL NOT WORK IF YOU HAVE TERMINAL BLOCKED. You need term
 
 CURRENT AND KNOWN BUGS
 
+All code was made with. If you have a problem with that, don't use it.
+
 EaglerCraft issues will not be documented, only issues with this specific way of running it. I should also mention that this should, by absolutely NO MEANS work.
 
 lmk if you find any at 2218854@edtools.psd401.net
