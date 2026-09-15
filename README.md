@@ -65,7 +65,7 @@ First, enter the command
 ``` bash
 touch main.swift
 ```
-It should look like this
+It should look like this (Note that at the time of taking this screenshot, my terminal was split into history after clearing(top) and general history(bottom) so it looks a bit off.)
 
 <img width="2816" height="1762" alt="image" src="https://github.com/user-attachments/assets/e5e8e753-f0f2-4c7b-b2de-c391fd82a86e" />
 
